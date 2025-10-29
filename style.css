@@ -3,3 +3,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+header{
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 30px ;
+  background-color: #fff;
+}
+nav ul{
+  display: flex;
+  gap: 50px;
+}
+ul li{
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 10px;
+}
+ul li:hover{
+  background-color: rgb(18, 219, 18);
+}
+li a{
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  background-color: rgb(18, 219, 18);
+  padding-top: 100px;
+  color: #fff;
+  gap: 70px;
+  text-align: center;
+  justify-content: center;
+
+}
+.card1{
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20px 0px 20px 0px;
+}
+.card1:hover{
+  background-color: aqua;
+  border: 30px solid rgb(165, 79, 79);
+  transition: 0.1s;
+  border-radius: 50%;
+}
